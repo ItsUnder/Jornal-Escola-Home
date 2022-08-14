@@ -49,7 +49,7 @@ html {
     color: black;
   }
   .container {
-    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    background: linear-gradient(230.65deg, #33B9FF 27.49%, #0095E3 83.19%);
     padding: 0px;
   }
   .noticias-render {
@@ -106,7 +106,7 @@ html {
   font-weight: 400;
   font-size: 20px;
   padding: 8px 16px;
-  background: #7CB6FE;
+  background: #1f9cdf;
   border-radius: 10px;
   nav-down: 2px;
   position: absolute;
@@ -136,7 +136,7 @@ html {
   color:white;
 }
 .dark .container {
-  background: linear-gradient(230.65deg, #041832 27.49%, #3468a7 83.19%);
+  background: linear-gradient(230.65deg, #002A8D 27.49%, #3468a7 83.19%);
 }
 .dark .page-title {
   color: white;
