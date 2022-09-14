@@ -147,8 +147,8 @@ html {
  background-size: cover;
  margin: 0;
 }
-.dark hr {
-  background-color: #CDC9C7;
+.dark hr  {
+  background-color: white;
   color:white;
 }
 .dark .container {
@@ -181,4 +181,31 @@ html {
   height: 10px;
   width: 7px;
   background: linear-gradient(#00125a, #263e58, #13151b);
+  }
+  .text-credits {
+    font-family: "Roboto";
+    color: black;
+    border-bottom: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    position: absolute;
+    top: 65px;
+  }
+  .text-credits .link-text {
+    font-family: "Roboto";
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .text-credits .link-text:hover {
+    color: rgb(147, 1, 214);
+  }
+  .dark .text-credits .link-text:hover {
+    color: rgb(147, 1, 214);
+  }
+  .dark .text-credits {
+    color: white;
+  }
+  .dark .text-credits .link-text{
+    color: white;
   }
